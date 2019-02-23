@@ -1,0 +1,25 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.parallax {
+    background: url("../images/doctor_background.jpg");
+
+    background-size: 100%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+li {
+    list-style: none;
+    list-style-type: none
+}
