@@ -7,17 +7,23 @@ html {
     text-align: center;
 }
 
-.parallax {
-    background: url("../images/doctor_background.jpg");
-
-    background-size: 100%;
+.mainSection{
+    background-image: url("../images/doct.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 1024px;
+    text-align: center;
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+.center-text {
+    position: relative;
+    top: 500px;
+    color: white;
 }
+
 
 li {
     list-style: none;
